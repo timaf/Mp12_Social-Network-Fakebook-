@@ -14,6 +14,8 @@ public class PersonEndpoint {
 
     private PersonRepository personRepository;
 
+    public PersonEndpoint() {
+    }
 
     public PersonEndpoint(PersonRepository personRepository) {
         this.personRepository = personRepository;
